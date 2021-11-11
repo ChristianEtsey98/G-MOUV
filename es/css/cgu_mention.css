@@ -1,0 +1,95 @@
+@media only screen and (max-width: 700px) {
+  #vide {
+      margin-top: 60px;
+  }
+
+  #titre {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #questions {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  #vide {
+    margin-top: 90px;
+  }
+
+  #titre {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  #questions {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+.question{
+    color: green;
+  }
+
+.réponse{
+    color:white;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#milieu {
+  background-color: #303030;
+  text-align: center;
+  flex: auto;
+  color: white;
+}
+
+#questions {
+  background-color: #303030;
+}
+
+#titre {
+  font-size:40px;
+  color:green;
+}
+
+.question {
+  font-size: 35px;
+}
+
+.rÃ©ponse {
+  opacity: 0%;
+  transition: 250ms;
+  font-size: 20px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.question:hover ~ .rÃ©ponse {
+  opacity: 100%;
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
