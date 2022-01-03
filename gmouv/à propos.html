@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-control" content="private" />
+  <title>G-mouv'</title>
+  <meta name="description" content="Notre solution a pour but de garantir la fiabilité des pilotes, à travers divers tests psychotechniques.">
+  <meta name="robots" content="index, follow" />
+
+  <link rel="icon" type="image/png" href="img/G-mouv'.png">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/backtotop.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/à propos.css">
+  <link rel="stylesheet" href="css/pub.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Barre de navigation-->
+<nav>
+  <!--Logo à gauche-->
+  <div class="logo_nav">
+    <a href="index.html">
+      <img src="img/G-mouv'.png"></img>
+    </a>
+  </div>
+
+  <!--Menu-->
+  <div class="contenu_nav">
+    <a href="index.html">Accueil</a>
+    <a href="trajet.html">Itinéraire</a>
+    <a href="quizz.html">Quiz</a>
+    
+    <a id="bouton_à_propos">
+      À propos
+      <ion-icon name="arrow-dropdown"></ion-icon>
+    </a>
+
+    <a id="bouton_utilisateur">
+      <img class="flag1" src="img/personne.png"><ion-icon name="arrow-dropdown"></ion-icon>
+    </a>
+    
+    <a id="bouton_langues">
+      <img class="flag" src="img/fr.png"><ion-icon name="arrow-dropdown"></ion-icon>
+    </a>
+  </div>
+
+  <!--Sélection des langues-->
+  <div id="liste_langues" class="cacher_liste_langues">
+    <div class="langue">
+      <a href="../en/index.html">
+        <img class="flag" src="img/en.png">
+      </a>
+    </div>
+    <div class="langue">
+      <a href="../es/index.html">
+        <img class="flag" src="img/es.png">
+      </a>
+    </div>
+  </div>
+
+<!--Sélection utilisateur : créer son compte, connexion, accéder à son compte-->
+  <div id="liste_connexion" class="cacher_liste_langues">
+    <div class="user">
+      <a href="connexion.php">
+        Connexion
+      </a>
+    </div>
+    <div class="user">
+      <a href="crée.html">
+        Inscription
+      </a>
+    </div>
+  </div>
+
+  <!--Sélection à propos-->
+  <div id="liste_à_propos" class="cacher_liste_langues">
+    <div class="à_propos">
+      <a href="à propos.html">
+        Entreprise
+      </a>
+    </div>
+    <div class="à_propos">
+      <a href="à propos.html#bas"> 
+        Contact
+      </a>
+    </div>
+    <div class="à_propos">
+      <a href="faq.html"> 
+        FàQ
+      </a>
+    </div>
+  </div>
+
+  
+  <!-- Bouton version mobile -->
+  <div class="contenu_nav_mobile">
+    <button id="bouton">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </div>
+
+  <!-- Menu version mobile -->
+  <div id="menu_deroulant" class="cacher_menu_deroulant">
+    <p>
+      <a href="index.html">Accueil</a>
+      <a href="trajet.html">Itinéraire</a>
+      <a href="quizz.html">Quiz</a>
+      <a href="à propos.html">À propos</a>
+      <a href="connexion.php">Connexion</a>
+      <a href="crée.html">Inscription</a>
+      <a href="faq.html">FàQ</a>
+      <a href="à propos.html#contact">Contact</a>
+
+      <div id="liste_langues_mobile">
+        <a href="../en/index.html">
+          <img class="flag" src="img/en.png">
+        </a>
+        <a href="../es/index.html">
+          <img class="flag" src="img/es.png">
+        </a>
+      </div>
+    </p>
+  </div>    
+</nav>
+
+
+  <div id="texetnous">
+    <h2>Qui sommes-nous?</h2>
+    <p>Un déplacement plus écologique.</p>
+      <div id="left_col1">
+        <p>Notre entreprise, Infinite Measures, développe un produit de suggestion d'itinéraire tout en respectant l'environnement.</p>
+        <p>Notre équipe est composée de six membres, présentés sur les pages suivantes.</p>
+        <p>Nous offrons des itinéraires de service de transport plus respectueux de l'environnement en échange d'avantages financiers, aux alentours d'Issy-les-Moulineaux. Les habitants d'Issy-les-Moulineaux savent que nous sommes engagés dans notre activité et que votre satisfaction est notre priorité.</p>          
+        <p>Les utilisateurs seront fournis de capteurs qui vont nous permettre de vérifier si ils respectent bien leurs engagements dans le choix de l'itinéraire et pouvoir leur faire gagner des bons d'achats en fonction de leurs points qu'ils accumuleront.</p>
+      </div>
+
+      <div id="right_col1">
+        <section id="slideshow2">
+          <div class="container2">
+            <div class="c_slider2"></div>
+            <div class="slider2">
+              <a href="https://www.issy.com/"><figure>
+                <img src="img/Logo_Issy-les-Moulineaux.svg" alt="" width="400" height="500" />
+              </figure></a><!--
+
+              --><a href="https://www.unep.org/fr"><figure>
+                <img src="img/UNEP.png" alt="" width="400" height="500" />
+              </figure></a><!--
+
+              --><a href="https://www.sncf.com/fr"><figure>
+                <img src="img/SNCF copie.jpg" alt="" width="400" height="500" />
+              </figure></a><!--
+
+              --><a href="https://www.wwf.fr/"><figure>
+                <img src="img/WWF.png" alt="" width="400" height="500" />
+              </figure></a>
+            </div>
+          </div>
+            
+          <!--<span id="timeline"></span>-->
+
+          <ul class="dots_commands2"><!--
+          --><li><a title="Afficher la slide 1" href="https://www.issy.com/">Ville d'Issy-les-Moulineaux</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://www.unep.org/fr">UNEP</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://www.sncf.com/fr">SNCF</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://www.wwf.fr/">WWF</a></li>
+        </ul>
+        </section>
+
+      </div>
+  </div>
+
+  <div id="texetnous">
+      <div id="left_col2">
+
+        <section id="slideshow">
+          <div class="container">
+            <div class="c_slider"></div>
+            <div class="slider">
+              <a href="https://www.cityscoot.eu/"><figure>
+                <img src="img/city scoot.jpeg" alt="" width="500" height="300" />
+              </figure></a><!--
+
+              --><a href="https://www.naturalia.fr/"><figure>
+                <img src="img/naturalia.jpeg" alt="" width="500" height="300" />
+              </figure></a><!--
+
+              --><a href="https://www.blablacar.fr/"><figure>
+                <img src="img/Bcar1.png" alt="" width="500" height="300" />
+              </figure></a><!--
+
+              --><a href="https://citymapper.com/"><figure>
+                <img src="img/C1.png" alt="" width="500" height="300" />
+              </figure></a>
+
+            </div>
+          </div>
+            
+          <!--<span id="timeline"></span>-->
+
+          <ul class="dots_commands"><!--
+          --><li><a title="Afficher la slide 1" href="https://www.cityscoot.eu/">CityScoot</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://www.naturalia.fr/">Naturalia</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://www.blablacar.fr/">BlaBlaCar</a></li><!--
+          --><li><a title="Afficher la slide 2" href="https://citymapper.com/">City Mapper</a></li>
+        </ul>
+        </section>
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <div id="right_col2">
+        <p>Le choix de notre produit vous permettra d'effectuer vos itinéraires dans de bonnes conditions, avec un air de qualité, en évitant au maximum la pollution sonore et en respectant l'environnement.</p>
+        <p>Contactez-nous pour échanger avec l'un de nos experts sur la manière dont notre équipe de professionnels peut vous aider !</p>
+        <p>Sentons nous impliqué !</p>
+      </div>
+  </div>
+      
+
+<div id="texetnous">
+
+  <div id="bas">
+    <div class="texteGauche">
+      <h2>Nous sommes à votre écoute</h2>
+      <p>28 Rue Notre Dame des Champs, 75006 Paris</p>
+      <p>01 49 54 52 20</P>
+    </div>
+    <img class="imgSlideRight1" src="img/pont .jpeg">
+  </div>
+  <div id="issy">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.76584454784!2d2.277664915553718!3d48.824528979284175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e670797ea4730d%3A0xe0d3eb2ad501cb27!2sISEP!5e0!3m2!1sfr!2sfr!4v1634054402696!5m2!1sfr!2sfr" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+
+  <div id="contact">
+    <h3 class="animer">Contact</h3>
+    <div class="rs"><!-- réseaux sociaux -->
+      <div class="fb animer">
+        <a href="https://www.facebook.com/InfiniteMeasuresFr" target = "_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <p>G-mouv'_fr</p>
+      </div>
+
+      <div class="email animer">
+        <a href="mailto:infinitemeasuresfr@gmail.com" target = "_blank"><ion-icon name="mail"></ion-icon></a>
+        <p>G-mouv'_fr@gmail.com</p>
+      </div>
+
+      <div class="insta animer">
+        <a href="https://www.instagram.com/infinite_measures/" target = "_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <p>G-mouv'</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <a id="backtotop" class = "btntop" role="button" href="#" accesskey="t">
+  <i>
+    <img src = "img/arrowtop.png" width="40" height="40"></img>
+  </i>
+</a>
+
+  <footer id="footer">
+  <div id="contenuFooter">
+    <div class="social">
+      <a href="https://www.facebook.com/InfiniteMeasuresFr" target = "_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://www.instagram.com/infinite_measures/" target = "_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://mailto.infinitemeasuresfr@gmail.com" target = "_blank"><ion-icon name="mail"></ion-icon></a>
+    </div>
+    <div class="txtFooter">
+      <p>
+        Infinite Measures <br>
+        <a href="cgu.html">CGU</a> -
+        <a href="mentions.html">Mentions légales</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+  <!--<script src="js/script.js"></script>-->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <script src="js/base.js"></script>
+</body>
+</html>

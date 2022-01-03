@@ -1,0 +1,155 @@
+@media only screen and (max-width: 700px) {
+  #vide {
+      margin-top: 60px;
+  }
+
+  #titre {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #questions {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  #bouton {
+    border: none;
+    background-color: #5d5fc6;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  #vide {
+    margin-top: 90px;
+  }
+
+  #titre {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  #questions {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+.question{
+    color: green;
+  }
+
+.réponse{
+    color:white;
+  }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#milieu {
+  background-color: #303030;
+  text-align: center;
+  flex: auto;
+  color: white;
+}
+
+#start {
+  background-color: #303030;
+  text-align: start;
+  flex: auto;
+  color: white;
+  font-size: medium
+}
+
+#questions {
+  background-color: #303030;
+}
+
+#plus {
+  text-align: center;
+}
+
+.Qplus {
+  font-size: 25px;
+  color:rgb(96, 183, 233);
+}
+
+.Rplus {
+  font-size: 20px;
+  color:rgb(255, 255, 255);
+}
+
+.Mailf {
+  font-size: 20px;
+  color:rgb(255, 0, 0);
+}
+
+
+#titre {
+  font-size:40px;
+  color:green;
+}
+
+.question {
+  font-size: 35px;
+}
+
+.rÃ©ponse {
+  opacity: 0%;
+  transition: 250ms;
+  font-size: 20px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.question:hover ~ .rÃ©ponse {
+  opacity: 100%;
+}
+
+hr {
+  border: none;
+  border-top: 3px double rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 700px
+}
+
+textarea {
+  width: 700px;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  background-color: #ffffff;
+  
+}
+
+.envoyer {
+  height: 45px;
+  width: 145px;
+  border: none;
+  border-radius: 50px;
+  background-color: #e6e6e6;
+  font-family: 'Oswald', sans-serif;
+  display : inline-block;
+  font-size: 20px;
+}
+
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+

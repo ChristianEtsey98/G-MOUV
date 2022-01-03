@@ -1,0 +1,259 @@
+@media only screen and (max-width: 700px) {
+  nav {
+    height: 70px;
+  }
+
+  .videNav {
+    height: 70px;
+  }
+
+  .logo_nav {
+    position: absolute;
+    right: 2%;
+    top: 7%;
+    /* Pour mettre le logo au centre
+    left: 50%;
+    transform: translate(-50%, 0%);
+    */
+  }
+
+  .logo_nav img {
+    height: 62px;
+  }
+
+  .contenu_nav {
+    display: none;
+  }
+
+  #logosLangue {
+    display: none;
+  }
+
+  .contenu_nav_mobile {
+    position: absolute;
+    top: 26%;
+    left: 3%;
+  }
+
+  .contenu_nav_mobile ion-icon {
+    color: green;
+    font-size: 36px;
+  }
+
+  .contenu_nav_mobile button {
+    margin: 0;
+  }
+
+  #menu_deroulant {
+    /*visibility: hidden;*/
+    /*max-width: 100%;*/
+    /*margin-top: 70px;*/
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5355ad;
+  }
+
+  #menu_deroulant p {
+    text-align: center;
+    opacity: 1;
+  }
+
+  #menu_deroulant a {
+    display: block;
+    text-decoration: none;
+    color: green;
+    font-size: 6vw;
+  }
+
+  #menu_deroulant a:hover {
+    color: #7FFF00;
+    transition: all 0.3s ease;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  nav {
+    height: 90px;
+  }
+
+  .videNav {
+    height: 90px;
+  }
+
+  .logo_nav {
+    position: absolute;
+    left: 1%;
+    top: 7%;
+  }
+
+  .logo_nav img {
+    height: 80px;
+  }
+
+  .contenu_nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+  }
+
+  .contenu_nav_mobile {
+    display: none;
+  }
+
+  #menu_deroulant {
+    display: none;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #000000;
+  width: 100%;
+  z-index: 10;
+  transition: all 1s ease;
+}
+
+.cacher_menu_deroulant {
+  display: none;
+}
+
+.cacherDefilement {
+  transform: translateY(-100%);
+}
+
+.videNav {
+  /* height en haut */
+  width: 100%;
+}
+
+.contenu_nav a {
+  display: flex;
+  align-items: center;
+
+  color: green;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 22px;
+}
+
+.contenu_nav a:hover {
+  color: #7FFF00;
+  transition: color 0.3s ease;
+}
+
+.flag {
+  height: 40px;
+}
+
+.flag1 {
+  height: 40px;
+}
+
+#liste_langues {
+  width: 80px;
+
+  position: absolute;
+  right: 27px;
+
+  background-color: Green;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+#liste_à_propos {
+  width: 100px;
+
+  position: absolute;
+  right: 250px;
+
+  background-color: Green;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+#liste_connexion {
+  width: 90px;
+
+  position: absolute;
+  right: 128px;
+
+  background-color: Green;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+#liste_langues_mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#liste_langues_mobile img {
+  height: 8vw;
+  padding: 0 10px 0 10px;
+}
+
+#liste_langues_mobile img:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+}
+
+.cacher_liste_langues {
+  display: none;
+}
+
+.langue {
+  padding: 8px;
+}
+
+.langue img:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+}
+
+.user {
+  padding: 8px;
+}
+
+.user a {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.user a:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+  color: rgb(0, 162, 255);
+}
+
+.à_propos {
+  padding: 8px;
+}
+
+.à_propos a {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.à_propos a:hover {
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+  color: rgb(0, 162, 255);
+}

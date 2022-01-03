@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>transport</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+Ma première page avec du texte (sans style)
+<h1>Ceci est un grand titre</h1>
+<h2>Ceci est un titre plus petit</h2>
+<p>Ceci est un paragraphe </p>
+</body>
+</html>
